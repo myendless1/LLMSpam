@@ -43,8 +43,6 @@ if __name__ == '__main__':
 
     feacture_vectors = np.array(feacture_vectors)
     feature_logits = np.array(feature_logits)
-    print(feacture_vectors.shape)
-    print(feature_logits.shape)
     plt.figure(figsize=(10, 10))
     plt.scatter(feature_logits[:, 0], feature_logits[:, 1], c=gt_labels, cmap="coolwarm", s=1)
     plt.colorbar()
