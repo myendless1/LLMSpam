@@ -1,0 +1,11 @@
+exp_name: bert_tiny
+log_dir: logs
+bert_path: bert-tiny
+ckpt_name: bert_tiny
+batch_size: 16
+max_num_samples: -1
+val_interval: 1000
+train_size: 0.9
+batch_size: 16
+lr: 1e-5
+freeze_bert: False

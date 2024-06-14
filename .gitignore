@@ -1,0 +1,9 @@
+*.png
+chatglm3-6b
+ckpts
+logs
+*.txt
+*.lot
+bert-*
+data
+
